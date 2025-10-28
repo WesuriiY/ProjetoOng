@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Administrador</title>
+</head>
+<body>
+  <header>
+    <h1>Painel do Administrador</h1>
+    <nav>
+      <ul>
+        <li><a href="adm.html">Início</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="configuracoes.html">Configurações</a></li>
+        <li><a href="index.html">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Resumo da ONG</h2>
+      <p><strong>Nome:</strong> ONG Esperança Viva</p>
+      <p><strong>Causa:</strong> Apoio a famílias em situação de vulnerabilidade</p>
+      <p><strong>Publicações ativas:</strong> 4</p>
+      <p><strong>Voluntários cadastrados:</strong> 28</p>
+    </section>
+
+    <section>
+      <h2>Nova Publicação</h2>
+      <form>
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" placeholder="Digite o título da publicação" required><br><br>
+
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao" rows="5" placeholder="Descreva sua causa ou novidade..." required></textarea><br><br>
+
+        <label for="imagem">Imagem (opcional):</label><br>
+        <input type="file" id="imagem" name="imagem"><br><br>
+
+        <button type="submit">Publicar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Publicações Recentes</h2>
+
+      <article>
+        <h3>Campanha de Doações de Inverno</h3>
+        <p>Estamos arrecadando agasalhos e cobertores para famílias em situação de rua. Participe!</p>
+        <small>Publicado em: 15/10/2025</small>
+      </article>
+
+      <article>
+        <h3>Feira Solidária 2025</h3>
+        <p>Evento beneficente com arrecadação para a compra de cestas básicas.</p>
+        <small>Publicado em: 02/10/2025</small>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Equipe Solidária - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
