@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Colaborador</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <header>
+    <h1>Painel do Colaborador</h1>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Bem-vindo!</h2>
+      <p>Olá, colaborador! Aqui você pode acompanhar as causas e realizar doações.</p>
+    </section>
+
+    <section class="donation">
+      <h3>Faça sua doação</h3>
+      <form id="doacao-form">
+        <label for="valor">Valor da doação (R$):</label>
+        <input type="number" id="valor" required>
+
+        <label for="metodo">Método de pagamento:</label>
+        <select id="metodo">
+          <option>Cartão de Crédito</option>
+          <option>Boleto</option>
+          <option>Pix</option>
+        </select>
+
+        <button type="submit">Doar</button>
+      </form>
+    </section>
+
+    <section class="history">
+      <h3>Histórico de doações</h3>
+      <ul>
+        <li>Doação de R$50 - 20/10/2025</li>
+        <li>Doação de R$30 - 15/10/2025</li>
+        <li>Doação de R$100 - 01/10/2025</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 A Casa das Causas</p>
+  </footer>
+</body>
+</html>
