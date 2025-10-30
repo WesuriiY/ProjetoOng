@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Painel do Administrador</title>
+  <link rel="stylesheet" href="adm.css">
+</head>
+<body>
+  <header>
+    <h1>Painel do Administrador</h1>
+  </header>
+
+  <main>
+    <section class="publish">
+      <h2>Nova Publicação</h2>
+      <form id="pub-form">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+
+        <label for="conteudo">Conteúdo:</label>
+        <textarea id="conteudo" rows="5" required></textarea>
+
+        <button type="submit">Publicar</button>
+      </form>
+    </section>
+
+    <section class="list">
+      <h2>Publicações Atuais</h2>
+      <ul id="pub-list">
+        <li>Título 1 - Lorem ipsum dolor sit amet.</li>
+        <li>Título 2 - Consectetur adipiscing elit.</li>
+      </ul>
+    </section>
+
+    <section class="control">
+      <h2>Controle da ONG</h2>
+      <p>Total de voluntários: 12</p>
+      <p>Total de apoiadores: 8</p>
+      <p>Doações recebidas: R$ 350</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 A Casa das Causas</p>
+  </footer>
